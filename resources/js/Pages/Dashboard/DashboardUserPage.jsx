@@ -4,7 +4,6 @@ import { Head, Link } from '@inertiajs/react';
 import TableLoanBook from '@/Components/UserDashboard/TableLoanBook';
 
 export default function DashboardUserPage({ auth, buku_dipesan }) {
-
     return (
         <>
             <AuthenticatedLayout

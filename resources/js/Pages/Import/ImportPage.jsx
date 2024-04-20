@@ -71,6 +71,9 @@ const ImportPage = (props) => {
                                 />
                                 <button className='btn bg-slate-800 ml-4 text-white hover:bg-white hover:text-slate-800'>Submit</button>
                             </form>
+                            <div className="content mt-4">
+                                <p>Note : Untuk Upload data menggunakan Excel dengan syarat membuat header title, author, dan isbn. </p>
+                            </div>
                         </div>
                     </div>
                 </div>

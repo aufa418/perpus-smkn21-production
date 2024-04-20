@@ -50,7 +50,7 @@ export default function Register() {
                 </div>
 
                 <div className="mt-4">
-                    <InputLabel htmlFor="nis" value="Nomor Induk Siswa" />
+                    <InputLabel htmlFor="nis" value="Nomor Induk Siswa (NIS)" />
 
                     <TextInput
                         id="nis"
@@ -58,7 +58,7 @@ export default function Register() {
                         name="nis"
                         value={data.nis}
                         className="mt-1 block w-full"
-                        autoComplete="username"
+                        autoComplete="nis"
                         onChange={(e) => setData('nis', e.target.value)}
                         required
                     />
