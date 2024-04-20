@@ -63,11 +63,10 @@ const DaftarBuku = () => {
             user={props.auth.user}
             header={<h2 className="font-semibold text-xl text-gray-800 leading-tight">Daftar Buku</h2>}
         >
-            {props.flash.message && <div role="alert" className="alert alert-error text-white toast toast-top toast-center flex-row w-96">
-                <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            {props.flash.message && <div role="alert" className="alert bg-slate-800 text-white toast toast-top toast-center flex-row w-96">
                 <span>{props.flash.message}</span>
             </div>}
-
+            s
             <div className="py-12">
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
 
